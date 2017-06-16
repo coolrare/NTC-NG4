@@ -24,4 +24,7 @@ export class HeaderComponent implements OnInit {
     }
   }
 
+  isHighlight() {
+    return this.title == 'app';
+  }
 }
