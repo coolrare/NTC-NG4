@@ -9,4 +9,9 @@ export class AppComponent {
   title = 'app';
 
   keyword = 'Hello';
+
+  doSearch(value: string) {
+    console.log(value);
+    this.keyword = value;
+  }
 }
